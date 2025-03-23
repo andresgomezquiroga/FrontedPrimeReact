@@ -32,7 +32,7 @@ const AuthUse = () => {
           return;
         }
     
-        navigate('/dashboard');
+        navigate('/dashboard/home-page');
       };
   return {
     email,

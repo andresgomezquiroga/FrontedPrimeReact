@@ -10,7 +10,7 @@ const Dashboard = () => {
       <div className='w-full h-full'>
             <MenuBar />
             <div className='p-4'>
-                <h1 className='text-2xl font-semibold'><Outlet/></h1>
+                <Outlet/>
             </div>
         </div>
     </div>

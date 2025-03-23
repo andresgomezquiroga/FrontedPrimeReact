@@ -24,7 +24,7 @@ const TiredMenu = () => {
     return (
         <div className="card flex justify-content-center">
             <TieredMenu model={items} popup ref={menu} breakpoint="767px" />
-            <Button icon="pi pi-cog" outlined rounded onClick={(e) => menu.current.toggle(e)} />
+            <Button icon="pi pi-cog" outlined rounded text onClick={(e) => menu.current.toggle(e)} />
         </div>
     )
 }
